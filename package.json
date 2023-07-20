@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "vite",
-    "build": "tailwindcss -i css/sajid.css -0 ./css/style.css"
+    "build": "tailwindcss -i style.css -o ./css/style.css"
   },
   "author": "",
   "license": "ISC",
