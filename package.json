@@ -1,10 +1,13 @@
 {
   "name": "tainwind",
   "version": "1.0.0",
+  "homepage": "https://developersajid.github.io/",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "vite"
+    "start": "vite",
+    "predeploy": "yern run bulid",
+    "deploy": "gh-pages -d bulid"
   },
   "author": "",
   "license": "ISC",
