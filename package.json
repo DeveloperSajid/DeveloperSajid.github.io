@@ -1,13 +1,11 @@
 {
-  "name": "tainwind",
+  "name": "tailwindcss",
   "version": "1.0.0",
-  "homepage": "https://developersajid.github.io/",
   "description": "",
   "main": "index.js",
   "scripts": {
     "start": "vite",
-    "predeploy": "yern run bulid",
-    "deploy": "gh-pages -d bulid"
+    "build": "tailwindcss -i css/sajid.css -0 ./css/style.css"
   },
   "author": "",
   "license": "ISC",
